@@ -1,1 +1,54 @@
 /*  your css code here. If applicable */
+body{
+     display:flex;
+	text-overflow:hidden;
+	justify-content:center;
+	Padding:0px;
+}
+
+.card{
+	background-color:pink;
+	width:55%;
+	height:10%;
+	padding-top:30px;
+	border-radius:10px;
+	box-shadow:1px 5px 5px 5px;
+}
+.img{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	border-radius:5px;
+
+}
+h3{
+	margin:0px;
+}
+.containt{
+	text-align:center;
+     padding:20px;
+}
+.buy{
+	padding-bottom:20px;
+	
+	
+}
+.button{
+	padding:10px;
+	background-color:lightcoral;
+	font-weight:50px;
+	border-radius:5px;
+	
+}
+.button:hover{
+	background-color:lightskyblue;
+	box-shadow:10px 10px 10px;
+	box-shadow:lightgoldenrodyellow;
+	cursor:pointer;
+	
+}
+.card:hover{
+	background-color:lightskyblue;
+	box-shadow:10px 10px 10px;
+	box-shadow:lightgoldenrodyellow;
+}
